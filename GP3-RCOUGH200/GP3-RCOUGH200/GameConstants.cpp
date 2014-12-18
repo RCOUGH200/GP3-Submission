@@ -24,5 +24,5 @@ bool playingEng = false;
 bool playingTheme = true;
 bool holdingMute = false;
 bool holdingCamTog = false;
-bool ctrlConnected = true;
+bool ctrlConnected = false;
 bool mute = false;

@@ -168,6 +168,8 @@ int WINAPI WinMain(HINSTANCE hInstance,
 			ctrlConnected = true;
 			Player1->CheckInput();
 		}
+		else
+			ctrlConnected = false;
 		
 		//If the theme is being unmuted
 		if (!mute){
